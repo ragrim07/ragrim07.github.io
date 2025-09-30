@@ -7,17 +7,15 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Agrim Rana's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Agrim Rana
+headline: Computer Science Student
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  First year CS Student - AI & Data Specialist.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
@@ -32,59 +30,82 @@ resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/vi
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
   linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
+  github: leea12    # https://github.com/ragrim07
   stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
+  instragram:       # https://instagram.com/luhhhgram 
   youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
+  discord:            # https://discord.com/users/luhhgram
   bluesky:           # https://bsky.app/profile/{your url slug} 
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: Programming & Languages
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+    - Python
+    - SQL
+    - C++
+    - Java
+    - R (learning)
+    - Bash / Shell scripting
+    - HTML / CSS / JavaScript (basics)
+
+  - category: Data Analysis & Visualization
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - pandas
+    - NumPy
+    - matplotlib
+    - seaborn
+    - Plotly
+    - Excel (advanced functions, pivot tables, charts)
+    - Power BI (starter)
+
+  - category: Machine Learning
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+    - scikit-learn
+    - XGBoost
+    - LightGBM
+    - Statsmodels
+    - Feature Engineering & Model Selection
+    - Hyperparameter Tuning (GridSearchCV / RandomizedSearchCV)
+
+  - category: Deep Learning / AI
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
+    - PyTorch
+    - TensorFlow / Keras
+    - Hugging Face Transformers
+    - OpenCV
+    - CNNs, RNNs, LSTMs
+    - Transfer Learning (ResNet, BERT, etc.)
+
+  - category: Data Engineering / MLOps
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - SQL Databases (MySQL, PostgreSQL)
+    - NoSQL Databases (MongoDB, Redis)
+    - Docker
+    - Git & GitHub
+    - Google Colab
+    - Jupyter Notebooks
+    - MLflow (learning)
+
+  - category: Cloud Platforms
+    tools:
+    - AWS (S3, EC2, SageMaker basics)
+    - Google Cloud (BigQuery, AI Platform)
+    - Microsoft Azure (starter)
+    - Google Colab & Kaggle Kernels
+
+  - category: Research & Problem Solving
+    tools:
+    - Data Wrangling & Cleaning
+    - Exploratory Data Analysis (EDA)
+    - Statistical Inference & Hypothesis Testing
+    - Probability & Linear Algebra for ML
+    - Reading and Reproducing Research Papers
+    - Critical Thinking & Algorithmic Problem Solving
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
